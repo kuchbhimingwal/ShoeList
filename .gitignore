@@ -1,0 +1,19 @@
+# OS genrerated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ethumbs.db
+Thumbs.db
+
+# Debug files
+*.log
+*.sql
+
+# WordPress standars files/
+uploads
+upgrade
+
+# SRC files/folders
+node_modules
