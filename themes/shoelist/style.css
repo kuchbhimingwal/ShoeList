@@ -698,6 +698,14 @@ textarea {
 }
 
 /* Small menu. */
+#primary-menu .menu-item a{
+    padding-left: 15px;
+    padding-right: 15px;
+	padding-top: 25px;
+	font-family: Helvetica Neue;
+	font-size: 15px;
+	color: #707070;
+}
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
@@ -713,7 +721,24 @@ textarea {
 		display: flex;
 	}
 }
-
+/* Search style */
+.search{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 15px;
+}
+.search #searchInput{
+	width: 70%;
+	border: 1px solid #707070;
+	border-radius: 0;
+	font-family: Helvetica Neue;
+	color: #357FC7;
+	padding-left: 20px;
+}
+.search img{
+	display: inline;
+	width: 30%;
+}
 .site-main .comment-navigation,
 .site-main
 .posts-navigation,
@@ -802,7 +827,10 @@ textarea {
 .custom-logo-link {
 	display: inline-block;
 }
-
+.custom-logo-link img{
+	max-width: 80%;
+	margin-top: 5px;
+}
 /* Captions
 --------------------------------------------- */
 .wp-caption {
@@ -891,7 +919,18 @@ textarea {
 .infinity-end.neverending .site-footer {
 	display: block;
 }
-
+/* footer  */
+.site-footer .site-info p{
+	height: 50px;
+	line-height: 50px;
+	width: 100%;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+}
+.site-footer .site-info a{
+	color: #3683CD;
+}
 /*--------------------------------------------------------------
 # Utilities
 --------------------------------------------------------------*/
