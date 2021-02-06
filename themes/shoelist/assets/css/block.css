@@ -1,0 +1,18 @@
+.block-editor-rich-text__editable.is-style-shoelist-heading,
+.is-style-shoelist-heading{
+    color: #3683CD;
+    font-family: Helvetica Neue;
+    font-size: 40px;
+    font-weight: 500;
+}
+.wp-block-separator.is-style-wide{
+    max-width: 100%;
+}
+.alignwide{
+    width: 33%;
+    display: inline-block;
+}
+.alignfull{
+    width: 90%;
+    margin: 0 auto;
+}

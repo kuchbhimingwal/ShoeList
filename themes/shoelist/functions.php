@@ -89,6 +89,17 @@ if ( ! function_exists( 'shoelist_setup' ) ) :
 				'flex-height' => true,
 			)
 		);
+
+
+		/**
+		 * Add theme support for default block style
+		 */
+		add_theme_support( 'wp-block-styles' );
+
+		/**
+		 * add_theme_support fpr wide aligment
+		 */
+		add_theme_support( 'align-wide' );
 	}
 endif;
 add_action( 'after_setup_theme', 'shoelist_setup' );
@@ -165,7 +176,8 @@ require get_template_directory() . '/inc/customizer.php';
 function shoelist_enqueue_block_editor_assets(){
 	wp_enqueue_script(
 		'editor-script',
-		get_template_directory_uri() . '/assets/js/editor.js'
+		get_template_directory_uri() . '/assets/js/editor.js',
+		array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' )
 	);
 }
 add_action( 'enqueue_block_editor_assets', 'shoelist_enqueue_block_editor_assets' );
