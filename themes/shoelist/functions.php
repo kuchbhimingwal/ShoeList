@@ -54,6 +54,7 @@ if ( ! function_exists( 'shoelist_setup' ) ) :
 			)
 		);
 
+
 		/*
 		 * Switch default core markup for search form, comment form, and comments
 		 * to output valid HTML5.
@@ -130,6 +131,10 @@ add_action( 'widgets_init', 'shoelist_widgets_init' );
 function shoelist_scripts() {
 	wp_enqueue_style( 'shoelist-style', get_stylesheet_uri(), array(), _S_VERSION );
 
+	// Foundation
+	wp_enqueue_style( 'foundation-style', get_template_directory_uri() . '/assets/css/vendor/foundation.css');
+	wp_enqueue_script( 'foundation-script', get_template_directory_uri() . '/assets/js/vendor/foundation.js', array(), false, true );
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
@@ -152,3 +157,26 @@ require get_template_directory() . '/inc/template-functions.php';
 require get_template_directory() . '/inc/customizer.php';
 
 
+
+/**
+ * Enqueueing block editor assets
+ */
+
+function shoelist_enqueue_block_editor_assets(){
+	wp_enqueue_script(
+		'editor-script',
+		get_template_directory_uri() . '/assets/js/editor.js'
+	);
+}
+add_action( 'enqueue_block_editor_assets', 'shoelist_enqueue_block_editor_assets' );
+
+/**
+ * Enququeing block assets
+ */
+function shoelist_enqueue_block_assets() {
+    wp_enqueue_style( 
+		'blocks-style', 
+		get_template_directory_uri() . '/assets/css/block.css'
+	);
+}
+add_action( 'enqueue_block_assets', 'shoelist_enqueue_block_assets' );
