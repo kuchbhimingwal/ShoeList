@@ -63,7 +63,7 @@
 				</div>
 				<div class="cell medium-4 small-11 search">
 					<input type="text" name="" id="searchInput" placeholder="Search here....">
-					<a href="#"><img src="profile-logo.png" alt="profile logo"></a>
+					<a href="#"><img src="http://shoelistwebsite.local/wp-content/uploads/2021/02/profile-logo.png" alt="profile logo"></a>
 				</div>
 			</div>
 		</div>

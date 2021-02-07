@@ -96,10 +96,6 @@ if ( ! function_exists( 'shoelist_setup' ) ) :
 		 */
 		add_theme_support( 'wp-block-styles' );
 
-		/**
-		 * add_theme_support fpr wide aligment
-		 */
-		add_theme_support( 'align-wide' );
 	}
 endif;
 add_action( 'after_setup_theme', 'shoelist_setup' );

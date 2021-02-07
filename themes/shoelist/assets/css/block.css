@@ -5,14 +5,41 @@
     font-size: 40px;
     font-weight: 500;
 }
+.block-editor-rich-text__editable.is-style-shoelist-product-heading,
+.is-style-shoelist-product-heading{
+    color: #3683CD;
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    font-weight: 500;
+}
+.block-editor-rich-text__editable.is-style-shoelist-product-paragraph,
+.is-style-shoelist-product-paragraph{
+    color: #707070;
+    font-family: Helvetica Neue;
+    font-size: 25px;
+    font-weight: 300;
+}
+.wp-block-buttons .wp-block-button .wp-block-button__link,
+.wp-block-buttons.is-style-fill .wp-block-button .wp-block-button__link{
+    background-color: #3683CD;
+    border-radius: 0;
+    font-family: Helvetica Neue;
+    color: #ffffff;
+    font-weight: 600;
+}
+.wp-block-buttons .wp-block-button .wp-block-button__link,
+.wp-block-buttons.is-style-white-button .wp-block-button .wp-block-button__link{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 0;
+    font-family: Helvetica Neue;
+    color: #000000;
+    font-weight: 600;
+}
 .wp-block-separator.is-style-wide{
     max-width: 100%;
 }
-.alignwide{
-    width: 33%;
-    display: inline-block;
-}
-.alignfull{
-    width: 90%;
-    margin: 0 auto;
+.wp-block-image.is-style-product-image{
+    max-width: 30%;
+    height: auto;
 }
