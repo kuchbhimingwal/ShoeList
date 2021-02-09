@@ -20,20 +20,20 @@
     font-weight: 300;
 }
 .wp-block-buttons .wp-block-button .wp-block-button__link,
-.wp-block-buttons.is-style-fill .wp-block-button .wp-block-button__link{
-    background-color: #3683CD;
-    border-radius: 0;
-    font-family: Helvetica Neue;
-    color: #ffffff;
-    font-weight: 600;
-}
-.wp-block-buttons .wp-block-button .wp-block-button__link,
 .wp-block-buttons.is-style-white-button .wp-block-button .wp-block-button__link{
     background-color: #ffffff;
     border: 1px solid #000000;
     border-radius: 0;
     font-family: Helvetica Neue;
     color: #000000;
+    font-weight: 600;
+}
+.wp-block-buttons .wp-block-button .wp-block-button__link,
+.wp-block-buttons.is-style-blue-button .wp-block-button .wp-block-button__link{
+    background-color: #3683CD;
+    border-radius: 0;
+    font-family: Helvetica Neue;
+    color: #ffffff;
     font-weight: 600;
 }
 .wp-block-separator.is-style-wide{
