@@ -28,15 +28,7 @@
     color: #000000;
     font-weight: 600;
 }
-.wp-block-buttons .wp-block-button .wp-block-button__link,
-.wp-block-buttons.is-style-blue-button .wp-block-button .wp-block-button__link{
-    background-color: #3683CD;
-    border: none;
-    border-radius: 0;
-    font-family: Helvetica Neue;
-    color: #ffffff;
-    font-weight: 600;
-}
+.wp-
 .wp-block-separator.is-style-wide{
     max-width: 100%;
 }
