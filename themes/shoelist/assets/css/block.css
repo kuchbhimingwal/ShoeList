@@ -31,10 +31,14 @@
 .wp-block-buttons .wp-block-button .wp-block-button__link,
 .wp-block-buttons.is-style-blue-button .wp-block-button .wp-block-button__link{
     background-color: #3683CD;
+    border: none;
     border-radius: 0;
     font-family: Helvetica Neue;
     color: #ffffff;
     font-weight: 600;
+}
+.blocks-gallery-item{
+    margin: 0;
 }
 .wp-block-separator.is-style-wide{
     max-width: 100%;
