@@ -11,7 +11,10 @@ wp.blocks.registerBlockStyle( 'core/paragraph', {
     name: 'shoelist-product-paragraph',
     label: 'Product Paragraph'
 } );
-wp.block
+wp.blocks.registerBlockStyle( 'core/button', {
+    name: 'white-button',
+    label: 'White Button'
+} );
 wp.blocks.registerBlockStyle( 'core/button', {
     name: 'blue-button',
     label: 'Blue Button'
