@@ -19,4 +19,7 @@ wp.blocks.registerBlockStyle( 'core/button', {
     name: 'blue-button',
     label: 'Blue Button'
 } );
-wp.block
+wp.blocks.registerBlockStyle( 'core/image', {
+    name: 'product-image',
+    label: 'Product Image'
+} );
