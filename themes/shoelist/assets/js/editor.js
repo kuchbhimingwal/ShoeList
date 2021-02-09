@@ -15,6 +15,10 @@ wp.blocks.registerBlockStyle( 'core/button', {
     name: 'white-button',
     label: 'White Button'
 } );
+wp.blocks.registerBlockStyle( 'core/button', {
+    name: 'blue-button',
+    label: 'Blue Button'
+} );
 wp.blocks.registerBlockStyle( 'core/image', {
     name: 'product-image',
     label: 'Product Image'
