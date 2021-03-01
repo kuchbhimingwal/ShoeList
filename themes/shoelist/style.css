@@ -737,10 +737,6 @@ textarea {
 	color: #357FC7;
 	padding-left: 20px;
 }
-.search img{
-	display: inline;
-	width: 30%;
-}
 .site-main .comment-navigation,
 .site-main
 .posts-navigation,
@@ -1010,6 +1006,11 @@ textarea {
 }
 
 
+.search img{
+	display: inline;
+	padding: 10px;
+	width: 80%;
+}
 /* woo commerce style  */
 .woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3{
 	font-family: Helvetica Neue;
@@ -1112,6 +1113,37 @@ textarea {
 	color: #3683CD;
 }
 .woocommerce-EditAccountForm.edit-account p input{
+	border-radius: 0;
+	border: 1px solid #3683CD;
+}
+
+.woocommerce-billing-fields h3, .woocommerce-additional-fields h3, #order_review_heading{
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 30px;
+	color: #3683CD;
+}
+.woocommerce-billing-fields__field-wrapper p label{
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 20px;
+	color: #3683CD;
+}
+.woocommerce-billing-fields__field-wrapper p input{
+	border-radius: 0;
+	border: 1px solid #3683CD;
+}
+.woocommerce-billing-fields__field-wrapper p input{
+	border-radius: 0;
+	border: 1px solid #3683CD;
+}
+.woocommerce-additional-fields__field-wrapper p label{
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 20px;
+	color: #3683CD;
+}
+.woocommerce-additional-fields__field-wrapper p textarea{
 	border-radius: 0;
 	border: 1px solid #3683CD;
 }

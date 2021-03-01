@@ -192,3 +192,4 @@ function shoelist_enqueue_block_assets() {
 	);
 }
 add_action( 'enqueue_block_assets', 'shoelist_enqueue_block_assets' );
+
