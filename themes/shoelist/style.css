@@ -1008,3 +1008,29 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+
+/* woo commerce style  */
+.woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3{
+	font-family: Helvetica Neue;
+	font-size: 25px;
+	color: #3683CD;
+}
+
+.woocommerce ul.products li.product .price {
+	font-family: Helvetica Neue;
+	font-weight: 100;
+	font-size: 15px;
+	color: #3C3C3C;
+}
+.woocommerce ul.products li.product a{
+	border-radius: 0;
+	background-color: #3683CD;
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 15px;
+	color: #ffffff;
+}
+.woocommerce span.onsale{
+	background-color: #3683CD;
+}
