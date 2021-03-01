@@ -1147,3 +1147,16 @@ textarea {
 	border-radius: 0;
 	border: 1px solid #3683CD;
 }
+.woocommerce div.product .product_title{
+
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 40px;
+	color: #3683CD;
+}
+.woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce-product-details__short-description p{
+	color: #000000;
+	font-family: Helvetica Neue;
+	font-weight: 300;
+	font-size: 17px;
+}
