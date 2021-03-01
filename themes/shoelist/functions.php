@@ -164,7 +164,10 @@ require get_template_directory() . '/inc/template-functions.php';
  */
 require get_template_directory() . '/inc/customizer.php';
 
-
+/**
+ * woocommerce.php additions.
+ */
+require get_template_directory() . '/inc/woocommerce.php';
 
 /**
  * Enqueueing block editor assets

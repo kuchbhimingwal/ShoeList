@@ -1034,3 +1034,84 @@ textarea {
 .woocommerce span.onsale{
 	background-color: #3683CD;
 }
+.woocommerce .products ul, .woocommerce ul.products{
+	border-top: 1px solid #3683CD;
+	padding-top: 20px;
+}
+.woocommerce .woocommerce-result-count{
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 25px;
+	color: #3683CD;
+}
+.woocommerce .woocommerce-ordering select{
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 20px;
+	color: #3C3C3C;
+}
+.woocommerce table.shop_table{
+	border-radius: 0;
+	font-family: Helvetica Neue;
+	font-weight: 300;
+	font-size: 20px;
+	color: #3683CD;
+}
+.woocommerce a.remove{
+	color: #3683CD!important;
+}
+.woocommerce a.remove:hover{
+	background-color: #3683CD!important;
+}
+.woocommerce .quantity .qty{
+	border-radius: 0;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+	border-radius: 0;
+	background-color: #3683CD;
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 15px;
+	color: #ffffff;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+	border-radius: 0;
+	background-color: #3683CD;
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 15px;
+	color: #ffffff;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li{
+	list-style: none;
+	padding: 20px;
+	text-align: center;
+	background-color: #3683CD;
+	border: 1px solid #ffffff;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a{
+	font-family: Helvetica Neue;
+	font-weight: 400;
+	font-size: 20px;
+	color: #ffffff;
+}
+.woocommerce-MyAccount-content p{
+	font-family: Helvetica Neue;
+	font-weight: 300;
+	font-size: 20px;
+	color: black;
+}
+.woocommerce-MyAccount-content p strong{
+	color: #3683CD;
+}
+.woocommerce-EditAccountForm.edit-account p label{
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 20px;
+	color: #3683CD;
+}
+.woocommerce-EditAccountForm.edit-account p input{
+	border-radius: 0;
+	border: 1px solid #3683CD;
+}
