@@ -1015,6 +1015,9 @@ textarea {
 	padding-left: 13%;
 }
 /* woo commerce style  */
+/* .added_to_cart.wc-forward{
+	display: none;
+} */
 .woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3{
 	font-family: Helvetica Neue;
 	font-size: 25px;
