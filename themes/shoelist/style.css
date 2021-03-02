@@ -1011,6 +1011,9 @@ textarea {
 	padding: 10px;
 	width: 80%;
 }
+.search{
+	padding-left: 13%;
+}
 /* woo commerce style  */
 .woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3{
 	font-family: Helvetica Neue;
