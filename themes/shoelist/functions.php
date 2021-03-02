@@ -193,3 +193,4 @@ function shoelist_enqueue_block_assets() {
 }
 add_action( 'enqueue_block_assets', 'shoelist_enqueue_block_assets' );
 
+wp_enqueue_style( 'style', get_stylesheet_uri() . '/assets/css/wooStyle.css');

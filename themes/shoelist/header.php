@@ -67,7 +67,7 @@
 						<input type="search" class="search-field" placeholder="<?php echo esc_attr_x( 'Search Products&hellip;', 'placeholder', 'woocommerce' ); ?>" value="<?php echo get_search_query(); ?>" name="s" title="<?php echo esc_attr_x( 'Search for:', 'label', 'woocommerce' ); ?>" />
 						<input type="hidden" name="post_type" value="product" />
 					</form>					
-
+						
 					<a href="http://shoelistwebsite.local/cart/"><img src="http://shoelistwebsite.local/wp-content/uploads/2021/03/cart.png" alt="profile logo"></a>
 					<a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?></a>
 

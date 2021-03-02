@@ -1005,7 +1005,6 @@ textarea {
 	margin-bottom: 1.5em;
 }
 
-
 .search img{
 	display: inline;
 	padding: 10px;
@@ -1186,4 +1185,58 @@ textarea {
   
  .woocommerce-product-gallery img {
 	width: 100%;
+ }
+
+ .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link, .wp-block-button__link{
+	border-radius: 0;
+	background-color: #3683CD;
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 15px;
+	color: #ffffff;
+	text-align: left;
+ }
+ .wc-block-grid__product .wc-block-grid__product-image, .wc-block-grid__product .wc-block-grid__product-title{
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 30px;
+	color: #3683CD;
+	text-align: left;
+ }
+ .wc-block-grid__product-onsale{
+	 display: none;
+ }
+ .wc-block-grid__product{
+	 text-align: left;
+ }
+ .wc-block-grid__product-price.price{
+	color: #000000;
+	font-family: Helvetica Neue;
+	font-weight: 300;
+	font-size: 17px;
+ }
+ .wc-block-featured-category__title{
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 50px;
+	color: #ffffff;
+ }
+ .wpcf7-form.init label{
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 20px;
+	color: #3683CD;
+ }
+ .wpcf7-form.init input, .wpcf7-form.init textarea{
+	border-radius: 0;
+	border: 1px solid #3683CD;
+ }
+ .wpcf7-form-control.wpcf7-submit{
+	border-radius: 0;
+	background-color: #3683CD;
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 15px;
+	color: #ffffff;
+	text-align: left;
  }
