@@ -30,6 +30,15 @@ function shoelist_customize_register( $wp_customize ) {
 			)
 		);
 	}
+
+	$wp_customize->add_panel(
+		'social_media',
+		array(
+			'title' => 'Social Media',
+			'description' => 'Add Socila Links',
+			'capablity' => 'edit_theme_options',
+		)
+		);
 }
 add_action( 'customize_register', 'shoelist_customize_register' );
 
