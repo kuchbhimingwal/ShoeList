@@ -31,33 +31,46 @@ function shoelist_customize_register( $wp_customize ) {
 		);
 	}
 
-	$wp_customize->add_panel(
+	// $wp_customize->add_panel(
+	// 	'social_media',
+	// 	array(
+	// 		'title' => 'Social Media',
+	// 		'description' => 'Add Socila Links',
+	// 		'capablity' => 'edit_theme_options',
+	// 	)
+	// );
+
+	$wp_customize->add_section(
 		'social_media',
 		array(
 			'title' => 'Social Media',
-			'description' => 'Add Socila Links',
-			'capablity' => 'edit_theme_options',
-		)
-	);
-
-	$wp_customize->add_section(
-		'facebook_link',
-		array(
-			'title' => 'Facebook Link',
-			'panel' => 'social_media'
+			// 'panel' => 'social_media'
 		)
 	);
 
 	$wp_customize->add_setting(
-		'facebook_url'
+		'facebook_url',
 	);
 
 	$wp_customize->add_control(
 		'facebook_url',
 		array(
 			'label' => 'Facebook URL',
-			'section' => 'facebook_link',
+			'section' => 'social_media',
 			'setting' => 'facebook_url',
+		)
+	);
+
+	$wp_customize->add_setting(
+		'twitter_url',
+	);
+
+	$wp_customize->add_control(
+		'twitter_url',
+		array(
+			'label' => 'Twitter URL',
+			'section' => 'social_media',
+			'setting' => 'twitter_url',
 		)
 	);
 }

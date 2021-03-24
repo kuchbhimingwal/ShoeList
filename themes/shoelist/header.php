@@ -60,6 +60,8 @@
 						);
 						?>
 					</nav><!-- #site-navigation -->
+					<a href="<?php echo esc_url( get_theme_mod( 'facebook_url' ) );?>" class="facebook-Link">Facebook</a>
+					<a href="<?php echo esc_url( get_theme_mod( 'twitter_url' ) );?>" class="teitter-Link">Twitter</a>
 				</div>
 				<div class="cell medium-4 small-11 search">
 					<form role="search" method="get" class="woocommerce-product-search" action="<?php echo esc_url( home_url( '/'  ) ); ?>">
