@@ -42,12 +42,12 @@ function shoelist_init() {
         'capability_type'    => 'post',
         'has_archive'        => true,
         'hierarchical'       => false,
-        'menu_position'      => 20,
+        'menu_position'      => null,
         'supports'           => array( 'title', 'editor', 'author', 'thumbnail' ),
         'taxonomies'         => array( 'category', 'post_tag' ),
-        'show_in_rest'       => true
+        'show_in_rest'       => true,
     );
-      
-    register_post_type( 'Shoelist', $args );
+    
+    register_post_type( 'shoelist', $args );
 }
 add_action( 'init', 'shoelist_init' );
