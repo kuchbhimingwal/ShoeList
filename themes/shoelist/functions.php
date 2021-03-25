@@ -170,6 +170,11 @@ require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/woocommerce.php';
 
 /**
+ * post-type.php additions.
+ */
+require get_template_directory() . '/inc/post-types.php';
+
+/**
  * Enqueueing block editor assets
  */
 
