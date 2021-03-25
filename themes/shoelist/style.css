@@ -1240,3 +1240,30 @@ textarea {
 	color: #ffffff;
 	text-align: left;
  }
+
+ .Blog-img img{
+	 height: 200px;
+	 width: 100%;
+ }
+ .blog-row{
+	 margin: 50px;
+ }
+
+ /* Side bar style  */
+.widget-title{
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 40px;
+	color: #3683CD;
+}
+.product-categories li{
+	list-style: none;
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 20px;
+	color: #3683CD;
+	margin: 5px;
+}
+.cat-item.children{
+	font-size: 15px;
+}
