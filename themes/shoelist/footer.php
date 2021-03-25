@@ -15,9 +15,8 @@
 			'post_type'      => 'shoelists',
 			'posts_per_page' => 3,
 		);
-
 		$shoelist_query = new WP_Query( $shoelist_args );
-
+		
 		if( $shoelist_query->have_posts() ){
 			while( $shoelist_query->have_posts() ){
 				$shoelist_query->the_post();
