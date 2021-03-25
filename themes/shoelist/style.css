@@ -1256,7 +1256,7 @@ textarea {
 	font-size: 40px;
 	color: #3683CD;
 }
-.product-categories li{
+.product-categories li, .cat-item{
 	list-style: none;
 	font-family: Helvetica Neue;
 	font-weight: 500;
@@ -1266,4 +1266,25 @@ textarea {
 }
 .cat-item.children{
 	font-size: 15px;
+}
+.woocommerce-product-search button{
+	border-radius: 0;
+	background-color: #3683CD;
+	font-family: Helvetica Neue;
+	font-weight: 500;
+	font-size: 15px;
+	color: #ffffff;
+	width: 70px;
+	height: 30px;
+}
+/* sidebar styling */
+.sidebarLeft{
+	padding-top: 40px;
+	padding-right: 40px;
+	border-top: 1px solid #3683CD;
+}
+.sidebarLeftMain{
+	padding-top: 40px;
+	padding-left: 40px;
+	border-top: 1px solid #3683CD;
 }
