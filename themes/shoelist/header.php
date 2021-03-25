@@ -60,8 +60,6 @@
 						);
 						?>
 					</nav><!-- #site-navigation -->
-					<a href="<?php echo esc_url( get_theme_mod( 'facebook_url' ) );?>" class="facebook-Link">Facebook</a>
-					<a href="<?php echo esc_url( get_theme_mod( 'twitter_url' ) );?>" class="teitter-Link">Twitter</a>
 				</div>
 				<div class="cell medium-4 small-11 search">
 					<form role="search" method="get" class="woocommerce-product-search" action="<?php echo esc_url( home_url( '/'  ) ); ?>">
@@ -72,7 +70,9 @@
 						
 					<a href="http://shoelistwebsite.local/cart/"><img src="http://shoelistwebsite.local/wp-content/uploads/2021/03/cart.png" alt="profile logo"></a>
 					<a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?></a>
-
+					
+					<a href="<?php echo esc_url( get_theme_mod( 'facebook_url' ) );?>" class="facebook-Link">Facebook</a>
+					<a href="<?php echo esc_url( get_theme_mod( 'twitter_url' ) );?>" class="teitter-Link">Twitter</a>
 				</div>
 			</div>
 		</div>

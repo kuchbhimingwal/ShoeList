@@ -10,7 +10,25 @@
  */
 
 ?>
+	<div>
+		<?php 
+		$shoelist_args = array(
+			'post_type'      => 'shoelist',
+			'posts_per_page' => 3,
+		);
 
+		$shoelist_query = new WP_Query( $shoelist_args );
+
+		if( $shoelist_query->have_posts() ){
+			while( $shoelist_query->have_posts() ){
+				$shoelist_query->the_posts();
+				?>
+				<h2><?php the_title(); ?></h2>
+				<?php
+			}
+		}
+		?>
+	</div>
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<p>© 2021 ShoeList, Inc. All Rights Reserved
