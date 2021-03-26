@@ -51,3 +51,4 @@ function shoelist_init() {
     register_post_type( 'shoelist', $args );
 }
 add_action( 'init', 'shoelist_init' );
+?>
