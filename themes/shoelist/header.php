@@ -48,7 +48,7 @@
 						<?php endif; ?>
 					</div><!-- .site-branding -->
 				</div>
-				<div class="cell medium-6 small-11">
+				<div class="cell medium-4 small-11">
 					<nav id="site-navigation" class="main-navigation">
 						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'shoelist' ); ?></button>
 						<?php
@@ -67,12 +67,12 @@
 						<input type="search" class="search-field" placeholder="<?php echo esc_attr_x( 'Search Products&hellip;', 'placeholder', 'woocommerce' ); ?>" value="<?php echo get_search_query(); ?>" name="s" title="<?php echo esc_attr_x( 'Search for:', 'label', 'woocommerce' ); ?>" />
 						<input type="hidden" name="post_type" value="product" />
 					</form>					
-						
+				</div>
+				<div class="cell medium-2 small-11 socials">
 					<a href="http://shoelistwebsite.local/cart/"><img src="http://shoelistwebsite.local/wp-content/uploads/2021/03/cart.png" alt="profile logo"></a>
-					<a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><?php echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?></a>
 					
-					<a href="<?php echo esc_url( get_theme_mod( 'facebook_url' ) );?>" class="facebook-Link">Facebook</a>
-					<a href="<?php echo esc_url( get_theme_mod( 'twitter_url' ) );?>" class="teitter-Link">Twitter</a>
+					<a href="<?php echo esc_url( get_theme_mod( 'facebook_url' ) );?>" class="facebook-Link"><img src="http://shoelistwebsite.local/wp-content/uploads/2021/03/Icon-awesome-facebook-square.png" alt="facebook logo"></a>
+					<a href="<?php echo esc_url( get_theme_mod( 'twitter_url' ) );?>" class="teitter-Link"><img src="http://shoelistwebsite.local/wp-content/uploads/2021/03/Icon-awesome-twitter-square.png" alt="twitter logo"></a>
 				</div>
 			</div>
 		</div>
