@@ -48,7 +48,7 @@
 						<?php endif; ?>
 					</div><!-- .site-branding -->
 				</div>
-				<div class="cell medium-4 small-11">
+				<div class="cell medium-8 small-11">
 					<nav id="site-navigation" class="main-navigation">
 						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'shoelist' ); ?></button>
 						<?php
@@ -60,13 +60,6 @@
 						);
 						?>
 					</nav><!-- #site-navigation -->
-				</div>
-				<div class="cell medium-4 small-11 search">
-					<form role="search" method="get" class="woocommerce-product-search" action="<?php echo esc_url( home_url( '/'  ) ); ?>">
-						<label class="screen-reader-text" for="s"><?php _e( 'Search for:', 'woocommerce' ); ?></label>
-						<input type="search" class="search-field" placeholder="<?php echo esc_attr_x( 'Search Products&hellip;', 'placeholder', 'woocommerce' ); ?>" value="<?php echo get_search_query(); ?>" name="s" title="<?php echo esc_attr_x( 'Search for:', 'label', 'woocommerce' ); ?>" />
-						<input type="hidden" name="post_type" value="product" />
-					</form>					
 				</div>
 				<div class="cell medium-2 small-11 socials">
 					<a href="http://shoelistwebsite.local/cart/"><img src="http://shoelistwebsite.local/wp-content/uploads/2021/03/cart.png" alt="profile logo"></a>

@@ -1,11 +1,8 @@
 
-.search img{
+.socials img{
 	display: inline;
 	padding: 10px;
-	width: 80%;
-}
-.search{
-	padding-left: 13%;
+	padding-top: 20px;
 }
 /* woo commerce style  */
 /* .added_to_cart.wc-forward{
