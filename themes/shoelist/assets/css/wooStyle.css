@@ -8,6 +8,8 @@
 /* .added_to_cart.wc-forward{
 	display: none;
 } */
+
+/* Styel for product header  */
 .woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3{
 	font-family: Helvetica Neue;
 	font-size: 25px;
@@ -20,6 +22,8 @@
 	font-size: 15px;
 	color: #3C3C3C;
 }
+
+/* style for buttons in the product page  */
 .woocommerce ul.products li.product a{
 	border-radius: 0;
 	background-color: #3683CD;
@@ -47,6 +51,7 @@
 	font-size: 20px;
 	color: #3C3C3C;
 }
+/* Styel for the my account page  */
 .woocommerce table.shop_table{
 	border-radius: 0;
 	font-family: Helvetica Neue;
