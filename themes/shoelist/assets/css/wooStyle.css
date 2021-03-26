@@ -62,12 +62,15 @@
 .woocommerce a.remove{
 	color: #3683CD!important;
 }
+
+/* hover for buttons  */
 .woocommerce a.remove:hover{
 	background-color: #3683CD!important;
 }
 .woocommerce .quantity .qty{
 	border-radius: 0;
 }
+/* Contact me form styling  */
 .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
 	border-radius: 0;
 	background-color: #3683CD;
