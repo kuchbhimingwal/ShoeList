@@ -142,6 +142,7 @@ function shoelist_scripts() {
 	// Foundation
 	wp_enqueue_style( 'foundation-style', get_template_directory_uri() . '/assets/css/vendor/foundation.css');
 	wp_enqueue_script( 'foundation-script', get_template_directory_uri() . '/assets/js/vendor/foundation.js', array(), false, true );
+	wp_enqueue_style( 'style', get_template_directory_uri() . '/assets/css/wooStyle.css');
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -198,4 +199,3 @@ function shoelist_enqueue_block_assets() {
 }
 add_action( 'enqueue_block_assets', 'shoelist_enqueue_block_assets' );
 
-wp_enqueue_style( 'style', get_stylesheet_uri() . '/assets/css/wooStyle.css');
