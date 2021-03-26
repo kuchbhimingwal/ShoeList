@@ -282,3 +282,7 @@
 	padding-left: 40px;
 	border-top: 1px solid #3683CD;
 }
+
+.woocommerce a.added_to_cart{
+	display: none;
+}
